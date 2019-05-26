@@ -1,0 +1,36 @@
+nav {
+    padding: .5!important;
+    background-color: #fff;
+    box-shadow: 2px 2px 1px #dedede;
+    * {
+        color: #000;
+        font-size: 17px;
+        font-weight: 400;
+        font-family: 'Roboto';
+    }
+}
+
+.nav-link {
+    a {
+        border-bottom: 1px solid #fff;
+    }
+}
+
+.navbar-nav {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.dropdown-item {
+    background-color: $titlecolor;
+    color: #fff;
+}
+
+.dropdown-menu {
+    background-color: $titlecolor;
+    a {
+        border-bottom: 1px solid #fff;
+        font-size: 13px;
+        padding: 10px 10px;
+    }
+}

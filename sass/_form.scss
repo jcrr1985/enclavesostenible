@@ -1,0 +1,24 @@
+.sectionLastForm {
+    transition: 1s all;
+    background: rgba($color: #BC204D, $alpha: .3);
+    border: 2px solid #dedede;
+    table {
+        th {
+            padding-bottom: 2rem;
+            transition: 1s all;
+        }
+        th:hover {}
+        width: 100%;
+        text-align: center;
+        td {
+            padding: 1rem;
+            transition: 1s all;
+        }
+        td:hover {
+            background: rgba($color: #BC204D, $alpha: .3);
+            transform: scale(1.1)
+        }
+    }
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}

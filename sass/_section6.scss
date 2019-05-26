@@ -1,0 +1,25 @@
+.section6 {
+    background-image: url("../img/transparencia.jpg")!important;
+    background-size: contain!important;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    padding-top: 7rem;
+    color: #fff;
+    padding-bottom: 3rem;
+    h1 {
+        padding-bottom: 3rem;
+    }
+    h4 {
+        font-family: 'ROBOTO', arial;
+        font-size: 18px;
+    }
+    ul {
+        display: inline-flex;
+        list-style: none;
+        li {
+            padding: 2rem;
+            border-right: 1px solid #fff
+        }
+    }
+}

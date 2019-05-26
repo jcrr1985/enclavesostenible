@@ -1,0 +1,50 @@
+.section3Conocenos {
+    background-image: url("../img/conocenosPatronatoBg.jpg")!important;
+    height: 80vh!important;
+    p {
+        margin-bottom: 5px;
+        padding-top: 0;
+    }
+    .sec3imgCaption {
+        p:first-of-type {
+            font-size: 18px;
+            color: #000;
+        }
+        p {
+            color: #fff;
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+    }
+    .sponsorsDiv {
+        font-size: 14px;
+    }
+}
+
+.section3Conocenos .row .sec3imgWrap {
+    display: flex;
+    flex-direction: column;
+    &.sec3imgWrap1 {
+        align-items: flex-end;
+    }
+    &.sec3imgWrap2 {
+        align-items: center;
+    }
+    &.sec3imgWrap3 {
+        align-items: center;
+    }
+}
+
+.section3Conocenos .titleWrap {
+    justify-content: center;
+    h1 {
+        color: #fff;
+        padding: 2.7rem 0 2.7rem 0;
+        font-weight: bold;
+    }
+}
+
+.section3Conocenos .row .sec3imgWrap img {
+    object-fit: contain;
+    transform: scale(.9);
+}

@@ -1,0 +1,42 @@
+.sectionNuestroEquipo {
+    background-color: #F7F7F7;
+    h1 {
+        padding-top: 5rem;
+    }
+}
+
+.owl-item {
+    position: relative;
+    top: -5rem;
+}
+
+.owl-stage {
+    height: 1px;
+}
+
+.owl-stage-outer {
+    height: 70vh!important;
+}
+
+.owl-carousel div img {
+    transform: scale(0.5)!important;
+}
+
+.venecif2 {
+    padding: 2rem;
+}
+
+.ven2cap {
+    font-size: 13px;
+}
+
+.cipher,
+.cipher2,
+.cipher3,
+.cipher4 {
+    font-family: $fancy;
+}
+
+.section5 {
+    height: 55vh!important;
+}

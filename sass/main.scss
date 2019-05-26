@@ -1,0 +1,625 @@
+@import 'variables';
+@import 'section2';
+@import 'section3';
+@import 'section6';
+@import 'form';
+@import 'nav';
+@import 'section2AndHalf';
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@font-face {
+    font-family: $fancy;
+    src: url("../fonts/PlaylistScript.otf") format("opentype");
+}
+
+* {
+    scroll-behavior: smooth;
+    /* <----- THE SECRET ---- */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: PlaylistScript;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn {
+    border: none;
+    transform: scale(.7);
+    background: transparent;
+}
+
+.bs {
+    border: none;
+    transform: scale(.7);
+    background: #02a3a1;
+    color: #fff;
+}
+
+.social-row {
+    justify-content: flex-end;
+}
+
+.fab {
+    margin-left: 4px;
+}
+
+.section-white {
+    padding: 10px 0;
+}
+
+.section-white {
+    background-color: #fff;
+    color: #555;
+}
+
+@media screen and (min-width: 768px) {
+    .section-white {
+        padding: 1.5em 0;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        max-width: 930px;
+    }
+}
+
+.section1 {
+    margin-top: 5rem;
+    overflow: hidden;
+}
+
+.section1 .col {
+    height: 100%;
+}
+
+
+/* .navbar-expand-md .navbar-nav .nav-link:hover {
+    color: crimson;
+    font-weight: bold;
+} */
+
+.section2 .row .col {
+    height: 70vh;
+}
+
+.sec2LeftDiv {
+    width: 75%;
+    align-items: center;
+    margin-left: 9rem;
+    margin-top: 4rem;
+    line-height: 19px;
+}
+
+.sec2LeftDiv h2 {
+    font-family: PlaylistScript;
+    color: #D11C35;
+    margin-bottom: 2rem;
+    margin-top: 5.5rem;
+}
+
+.sec2leftDesc {
+    font-size: 13px;
+}
+
+.firstRreadMore {
+    border: 2px solid #59b1ad;
+    color: #59b1ad;
+    border-radius: 3px;
+    background-color: transparent;
+    display: inline-block;
+    padding: .375rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#owlReadMore {
+    border: 2px solid #59b1ad;
+    color: #59b1ad;
+    border-radius: 3px;
+    background-color: transparent;
+    display: inline-block;
+    padding: .375rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-bottom: 2rem;
+}
+
+.sec2img iframe {
+    width: 65%;
+    height: 100%;
+    margin-top: -1.7em;
+    margin-left: 3.6rem;
+}
+
+.navbar-brand img {
+    width: 12rem;
+}
+
+.socialDiv {
+    margin-right: 8.5rem;
+}
+
+.thirdSecRow {
+    text-align: center;
+    font-size: 4.4rem;
+}
+
+.section3 {
+    height: 60vh;
+    background: #F8F9F9;
+}
+
+.venencif {
+    font-size: 2rem !important;
+    margin-top: 1.5rem;
+    color: #D11C35;
+    font-family: PlaylistScript;
+}
+
+.section4 {
+    height: 75vh;
+    background: #fff;
+}
+
+.section4 {
+    background-image: url("https://picsum.photos/id/12/1600/500");
+    background-repeat: no-repeat;
+}
+
+.section4 .rowImgs {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.sec4ImgsDiv {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.people4 {
+    width: 30%;
+    height: 60%;
+}
+
+.people4 img {
+    width: 100%;
+}
+
+.rowPeopleBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    height: 50px;
+}
+
+.peopleBtn {
+    margin-top: -7rem;
+    margin-left: 33rem;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.compromise img {
+    width: 16rem;
+    margin-bottom: 3rem;
+}
+
+.owl-carousel div img {
+    transform: scale(.3)
+}
+
+.fifthReadMore {
+    margin-bottom: 2rem;
+}
+
+.sec6cardWrapper {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+}
+
+.section6 {
+    background: #30BCBD;
+    display: flex;
+    flex-direction: column;
+}
+
+.section6 h2 {
+    font-family: PlaylistScript;
+    color: #fff;
+    margin-bottom: 3.5rem;
+    margin-top: 2.5rem;
+    display: block;
+}
+
+.section6 .sec6card {
+    margin-left: 3rem;
+    width: min-content;
+}
+
+.section6 .sec6cardWrapper {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    height: auto;
+}
+
+.section6 .sec6cardWrapper img {
+    padding: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.section6 h2 {
+    text-align: center;
+}
+
+.section6 .sec6card .cardText {
+    font-size: 13px;
+}
+
+.sec6card p {
+    font-size: 14px;
+    margin-top: .5rem;
+}
+
+#firstSec6Card {
+    margin-left: 0px;
+}
+
+.section7 {
+    height: 70vh;
+    background-color: #fff;
+    padding-bottom: 3rem;
+    margin-bottom: 5rem;
+}
+
+.section7 h2 {
+    padding: 2.5rem;
+    text-align: center;
+    color: #D11C35;
+}
+
+.section7 .galleryDiv {
+    display: flex;
+    width: 83%;
+    background-color: #fff;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section7 .galleryDiv a {
+    width: 220px;
+    height: 130px;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 0.3rem;
+    flex-grow: 1;
+    margin: 1px 1px;
+}
+
+.section7 .galleryDiv a img {
+    margin-top: -2rem;
+    margin-left: -1rem;
+    transition: all 1.3s;
+    border: 1px solid #fff;
+    margin-bottom: 3rem;
+}
+
+.section7 .galleryDiv a img:hover {
+    transform: scale(1.3);
+}
+
+.sec7ReadMore {
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 2.5rem;
+}
+
+.sec7ReadMore button {
+    background-color: #fff;
+    color: #230388;
+    border: 2px solid #02a3a1;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 12px;
+    padding: .4rem 1.7rem;
+}
+
+.owl-stage-outer {
+    height: 188px;
+    margin-top: -85px;
+    margin-bottom: 40px;
+}
+
+.section8 {
+    width: 100%;
+    height: 30vh;
+    background: #F4F2F2;
+}
+
+.section8 .sec8titleDiv {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: .7rem;
+}
+
+.section8 .redes {
+    text-align: center;
+    background: #F4F2F2;
+}
+
+.mailito {
+    margin-left: .5rem;
+}
+
+.section8 .col {
+    text-align: center;
+}
+
+.section9 {
+    background-color: #B0162D;
+    padding: 2rem 2rem;
+}
+
+.section9 * {
+    color: #ffffff;
+}
+
+.section9 .row {
+    padding: .5rem .5rem;
+}
+
+.section9 .col {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.borderRight {
+    border-right: 1px solid #fff
+}
+
+.firstrImgWrapper img {
+    margin-top: 1rem;
+    /* height: -webkit-fill-available; */
+    margin-left: -7rem;
+    height: 80vh;
+}
+
+.section1RightDiv {
+    padding-top: 1rem;
+}
+
+.section1RightDiv .txtRightDiv {
+    margin-top: 10rem;
+    margin-left: 6.5rem;
+}
+
+.section1RightDiv .txtRightDiv .rightDivPs {
+    margin-top: 5rem;
+    margin-left: 1rem;
+}
+
+.txtRightDiv .rightDivPs {
+    p:first-of-type {
+        color: #fff;
+        font-size: 34px;
+        font-family: PlaylistScript;
+        margin-bottom: 0px;
+    }
+    p {
+        color: #000;
+        font-size: 34px;
+        font-family: PlaylistScript;
+        margin-bottom: 0px;
+    }
+}
+
+.testa {
+    overflow: hidden;
+    height: 98vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 7rem;
+    .col {
+        margin-top: 7.5rem;
+    }
+}
+
+@mixin testaMix {
+    overflow: hidden;
+    height: 98vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 7rem;
+    .col {
+        margin-top: 7.5rem;
+    }
+}
+
+.conocenosHeadBg {
+    background-image: url("../img/bg_conocenos-1.jpg");
+}
+
+.txtRightDiv {
+    margin-left: 40rem;
+    margin-top: 20rem;
+}
+
+.beneficiariosHeadBg {
+    background-image: url("../img/03_beneficiarios.jpg");
+    @include testaMix();
+    height: 75vh!important;
+}
+
+@mixin beneficiariosHeaderText {
+    color: #fff;
+    font-size: 60px;
+    font-family: PlaylistScript;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    background-color: rgba($color: #000000, $alpha: .75);
+    letter-spacing: .3rem;
+}
+
+.beneficiariosHeaderName {
+    @include beneficiariosHeaderText();
+    padding-right: 2rem;
+}
+
+.beneficiariosHeaderName2 {
+    @include beneficiariosHeaderText();
+    margin-left: 5rem;
+    margin-top: -1rem;
+    padding-top: 1.3rem!important;
+    padding-bottom: .15rem!important;
+}
+
+.benefHeadTextWrapper {
+    margin-left: 13rem;
+    margin-top: 12rem;
+}
+
+.benefHeaderBottomText {
+    color: #fff;
+    font-size: 30px;
+    font-family: PlaylistScript;
+    margin-left: 5rem;
+}
+
+.benefNuestraGenteTitle {
+    color: #D11C35;
+    font-family: PlayListScript;
+    font-size: 2rem;
+    padding-bottom: 3rem!important;
+}
+
+.benefNuestraGente {
+    .row {
+        display: flex;
+        justify-content: center;
+        padding: 3rem 0 2.5rem 0;
+        .nuestragenteCol {
+            width: 80%;
+            text-align: center;
+        }
+    }
+    p {
+        font-size: 14px;
+        line-height: 18px;
+        &p:first-of-type {
+            margin-bottom: 100px;
+        }
+    }
+}
+
+.sec4Benef {
+    background-image: none!important;
+    height: 54vh!important;
+}
+
+.change {
+    align-items: flex-start!important;
+}
+
+.benef-proceso {
+    background-color: #FFC646;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2.5rem;
+    h2 {
+        padding-top: 1rem;
+    }
+    .benef-proceso-title {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        padding-top: 2rem;
+    }
+    .benef-proceso-main-text {
+        width: 75%;
+        margin: 2rem auto;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .benef-proceso-tiles {
+        width: 80%;
+        color: #000;
+        display: flex;
+        flex-wrap: nowrap;
+        padding-top: 2.5rem;
+        margin: auto;
+        text-align: justify;
+        ul {
+            li {
+                list-style: none;
+                text-decoration: none;
+                display: inline-flex;
+                width: 45%;
+                flex-direction: column;
+                font-size: 14px;
+                line-height: 17px;
+                h5 {
+                    font-size: 26px;
+                    font-weight: bold;
+                }
+                padding-bottom: 4rem;
+            }
+            .lastli {
+                float: right;
+            }
+        }
+    }
+}
+
+.benef-ofertas-job {
+    .benef-ofertas-wrapper {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+.padding-0 {
+    padding-right: 0;
+    padding-left: 0;
+}
