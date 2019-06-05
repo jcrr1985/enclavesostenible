@@ -6,6 +6,7 @@
 @import 'nav';
 @import 'section2AndHalf';
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
 @font-face {
     font-family: $fancy;
     src: url("../fonts/PlaylistScript.otf") format("opentype");
@@ -22,7 +23,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: PlaylistScript;
+    // font-family: 'Karla', sans-serif;
+    color: #333;
 }
 
 p {
@@ -150,11 +152,15 @@ p {
     margin-bottom: 2rem;
 }
 
-.sec2img iframe {
-    width: 65%;
-    height: 100%;
-    margin-top: -1.7em;
-    margin-left: 3.6rem;
+.sec2img {
+    h1 {
+        padding-bottom: 2rem;
+    }
+    align-self: center;
+    iframe {
+        width: 75%;
+        height: 100%;
+    }
 }
 
 .navbar-brand img {
@@ -622,4 +628,18 @@ p {
 .padding-0 {
     padding-right: 0;
     padding-left: 0;
+}
+
+a {
+    cursor: pointer;
+}
+
+.navbar-nav {
+    .nav-item.dropdown {
+        .dropdown-menu {
+            a.dropdown-item {
+                color: #fff;
+            }
+        }
+    }
 }

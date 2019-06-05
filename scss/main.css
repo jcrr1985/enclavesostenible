@@ -1,19 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
-@import url("https://fonts.googleapis.com/css?family=Karla&display=swap");
 .conocenosSection2 {
   padding-left: 11.4rem;
   padding-right: 11.4rem;
   padding-bottom: 2rem;
-  background-color: #dedede;
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
 }
 
 .section2TextDiv {
-  text-align: justify;
-  font-size: 14px;
+  text-align: center;
 }
 .section2TextDiv .boldText {
   font-weight: bold;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 .section2TextDiv .title {
   text-align: center;
@@ -23,8 +21,8 @@
 }
 
 .section3Conocenos {
-  background: #ccc;
-  padding-bottom: 3rem;
+  background-image: url("../img/conocenosPatronatoBg.jpg") !important;
+  height: 80vh !important;
 }
 .section3Conocenos p {
   margin-bottom: 5px;
@@ -47,29 +45,28 @@
   display: flex;
   flex-direction: column;
 }
-.section3Conocenos .row .sec3imgWrap img {
-  object-fit: contain;
-  transform: scale(0.9);
+.section3Conocenos .row .sec3imgWrap.sec3imgWrap1 {
+  align-items: flex-end;
 }
-.section3Conocenos .row .sec3imgWrap p {
-  font-size: 14px;
+.section3Conocenos .row .sec3imgWrap.sec3imgWrap2 {
+  align-items: center;
+}
+.section3Conocenos .row .sec3imgWrap.sec3imgWrap3 {
+  align-items: center;
 }
 
 .section3Conocenos .titleWrap {
   justify-content: center;
 }
 .section3Conocenos .titleWrap h1 {
-  color: #333;
+  color: #fff;
   padding: 2.7rem 0 2.7rem 0;
+  font-weight: bold;
 }
 
-.teamWrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-.teamWrapper .card-text {
-  font-size: 12px;
+.section3Conocenos .row .sec3imgWrap img {
+  object-fit: contain;
+  transform: scale(0.9);
 }
 
 .section6 {
@@ -127,9 +124,20 @@ nav {
   background-color: #fff;
   box-shadow: 2px 2px 1px #dedede;
 }
+nav * {
+  color: #000;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "Roboto";
+}
 
 .nav-link a {
   border-bottom: 1px solid #fff;
+}
+
+.navbar-nav {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .dropdown-item {
@@ -144,24 +152,6 @@ nav {
   border-bottom: 1px solid #fff;
   font-size: 13px;
   padding: 10px 10px;
-}
-
-.navbar-nav .nav-item a {
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.navbar-nav .nav-item.dropdown .dropdown-menu a.dropdown-item {
-  color: #fff;
-}
-
-a.firstRreadMore {
-  background-color: indigo;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
 }
 
 .sectionNuestroEquipo {
@@ -222,7 +212,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #333;
+  font-family: PlaylistScript;
 }
 
 p {
@@ -346,15 +336,11 @@ p {
   margin-bottom: 2rem;
 }
 
-.sec2img {
-  align-self: center;
-}
-.sec2img h1 {
-  padding-bottom: 2rem;
-}
 .sec2img iframe {
-  width: 75%;
+  width: 65%;
   height: 100%;
+  margin-top: -1.7em;
+  margin-left: 3.6rem;
 }
 
 .navbar-brand img {
@@ -816,10 +802,6 @@ p {
 
 a {
   cursor: pointer;
-}
-
-.navbar-nav .nav-item.dropdown .dropdown-menu a.dropdown-item {
-  color: #fff;
 }
 
 /*# sourceMappingURL=main.css.map */

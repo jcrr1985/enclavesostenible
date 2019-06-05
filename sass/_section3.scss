@@ -1,6 +1,6 @@
 .section3Conocenos {
-    background-image: url("../img/conocenosPatronatoBg.jpg")!important;
-    height: 80vh!important;
+    background: #ccc;
+    padding-bottom: 3rem;
     p {
         margin-bottom: 5px;
         padding-top: 0;
@@ -24,27 +24,28 @@
 .section3Conocenos .row .sec3imgWrap {
     display: flex;
     flex-direction: column;
-    &.sec3imgWrap1 {
-        align-items: flex-end;
+    img {
+        object-fit: contain;
+        transform: scale(.9);
     }
-    &.sec3imgWrap2 {
-        align-items: center;
-    }
-    &.sec3imgWrap3 {
-        align-items: center;
+    p {
+        font-size: 14px;
     }
 }
 
 .section3Conocenos .titleWrap {
     justify-content: center;
     h1 {
-        color: #fff;
+        color: #333;
         padding: 2.7rem 0 2.7rem 0;
-        font-weight: bold;
     }
 }
 
-.section3Conocenos .row .sec3imgWrap img {
-    object-fit: contain;
-    transform: scale(.9);
+.teamWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    .card-text {
+        font-size: 12px;
+    }
 }
