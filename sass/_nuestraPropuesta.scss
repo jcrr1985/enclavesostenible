@@ -1,0 +1,37 @@
+.np * {
+    font-family: quotus;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: timeburnernormal;
+    }
+}
+
+.mainImgDiv {
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 5.5rem;
+    img {
+        width: -webkit-fill-available;
+    }
+}
+
+.npTitle {
+    padding: 30px 0px 10px 0px;
+    margin: auto;
+    text-align: center;
+}
+
+.np1 {
+    flex-direction: column;
+    font-size: 15px;
+    .mainTextnp {
+        text-align: justify;
+    }
+}
+
+.np2 {}

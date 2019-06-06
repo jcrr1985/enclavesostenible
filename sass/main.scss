@@ -2,6 +2,7 @@
 @import 'section2';
 @import 'section3';
 @import 'section6';
+@import 'nuestraPropuesta';
 @import 'form';
 @import 'nav';
 @import 'section2AndHalf';
@@ -12,9 +13,14 @@
     src: url("../fonts/PlaylistScript.otf") format("opentype");
 }
 
+@font-face {
+    font-family: $titles;
+    src: url("../fonts/timeburnernormal.ttf") format("opentype");
+}
+
 * {
     scroll-behavior: smooth;
-    /* <----- THE SECRET ---- */
+    /* <----- THE SECRET anchor on page smooth transition ---- */
 }
 
 h1,
@@ -632,14 +638,4 @@ p {
 
 a {
     cursor: pointer;
-}
-
-.navbar-nav {
-    .nav-item.dropdown {
-        .dropdown-menu {
-            a.dropdown-item {
-                color: #fff;
-            }
-        }
-    }
 }

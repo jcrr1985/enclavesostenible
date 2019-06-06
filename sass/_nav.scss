@@ -38,6 +38,10 @@
                     a.dropdown-item {
                         color: #fff;
                     }
+                    a.dropdown-item:hover {
+                        background: rgb(41, 128, 128);
+                        ;
+                    }
                 }
             }
         }

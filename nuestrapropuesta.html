@@ -15,22 +15,27 @@
     <link rel="stylesheet" href="css/socialmedia.css">
     <link rel="stylesheet" type="" href="css/main.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+    <!-- <link rel="stylesheet" type="" href="./OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css"> -->
     <link rel="stylesheet" type="" href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-
+    <link rel="stylesheet" type="" href="./css/owl.carousel.min.css">
     <style>
         .dropdown:hover>.dropdown-menu {
             display: block;
         }
     </style>
+    <!-- Start WOWSlider.com HEAD section -->
+    <!-- add to the <head> of your page -->
+    <link rel="stylesheet" type="text/css" href="engine0/style.css" />
+    <script type="text/javascript" src="engine0/jquery.js"></script>
+    <!-- End WOWSlider.com HEAD section -->
 </head>
 
 <body>
 
     <!--Navbar-->
 
-
-    <div class="container-fluid">
+    <div class="container-fluid" style="margin-bottom: 7rem !important;">
         <nav class="navbar navbar-expand-md fixed-top row">
             <div class="col-sm-4 text-center">
                 <a class="navbar-brand" href="#"><img src="https://fundacionintegra.org/wp-content/uploads/cropped-cropped-logoIntegra.png" alt=""></a>
@@ -74,8 +79,7 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link" href="./index.html">Home
-                                    <span
+                            <a class="nav-link" href="#">Home <span
                                         class="sr-only">(current)</span></a>
                         </li>
                         <!--CONOCENOS-->
@@ -98,7 +102,7 @@
                         </li>
                         <!--NUESTRA PROPUESTA-->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="./nuestrapropuesta.html" id="navbarDropdown0" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown0" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Nuestra propuesta
                                 </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown0">
@@ -112,7 +116,7 @@
                         </li>
                         <!--BENEFICIARIOS-->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="./beneficiarios.html" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Beneficiarios
                                 </a>
                             <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
@@ -144,113 +148,89 @@
 
     </div>
 
-    <!--Section 1: Beneficiarios -->
+    <!--INICIO DE SECCIONES-->
 
-    <section class="container-fluid beneficiariosHeadBg">
+    <!--Sections-->
 
-        <div class="row">
-            <div class="col-auto section1RightDiv">
-                <div class="benefHeadTextWrapper">
-                    <span class="beneficiariosHeaderName">Una segunda</span>
-                    <br>
-                    <span class="beneficiariosHeaderName2">Oportunidad</span>
-                    <br>
-                    <span class="benefHeaderBottomText">Ver la historia de
-                            Cristina</span>
-                </div>
+    <section class="container-fluid np section2">
+        <div class="row justify-content-center">
+
+            <div class="mainImgDiv">
+                <img src="./img/nuestraPropuestaMain.png" alt="close
+                        borders inmigrants">
             </div>
-        </div>
-    </section>
-
-    <section class="benefNuestraGente">
-        <div class="row">
-            <div class="col-auto nuestragenteCol">
-                <span class="benefNuestraGenteTitle"> Nuestra gente </span>
-                <p>Desde la Fundación Integra trabajamos para ayudar a personas en exclusión social como pueden ser mujeres víctimas de violencia de género, personas sin hogar, mujeres prostituidas y/o traficadas, ex drogodependientes, ex reclusos, jóvenes
-                    en riesgo de exclusión o libertad vigilada… Así como a personas con discapacidad.</p>
-                <p>Personas que tomaron la decisión de dejar atrás un difícil pasado y que ahora buscan una oportunidad de trabajo para poder retomar las riendas de sus vidas.</p>
+            <div class="npTitle">
+                <h1>Hagamos políticas desde la razón y no desde el miedo</h1>
             </div>
-        </div>
-    </section>
-    <section id="section4" class="section4 sec4Benef container-fluid">
-        <div class="rowImgs">
-            <div class="sec4ImgsDiv change">
-                <div class="people4">
-                    <img src="https://fundacionintegra.org/wp-content/uploads/gente_pedro-1.jpg" alt="">
-                </div>
-                <div class="people4">
-                    <img src="https://fundacionintegra.org/wp-content/uploads/gente_cristina-1.jpg" alt="">
 
-                </div>
-                <div class="people4">
-                    <img src="https://fundacionintegra.org/wp-content/uploads/gente_maria-1.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="benef-proceso">
-        <div class="benef-proceso-title">
-            <h2>Proceso</h2>
-        </div>
-
-        <div class="benef-proceso-main-text">
-            <p>En la Fundación, intermediamos entre las entidades sociales y las empresas para lograr que las personas más desfavorecidas y personas con discapacidad, consigan un trabajo.
-
-            </p>
-            <p>Las personas que llegan a nosotros siguen un itinerario personalizado que les permite desarrollar sus capacidades, recuperar su autoestima y fortalecer su compromiso con su proceso de inserción.
-
-            </p>
-            <p>Este itinerario incluye las siguientes fases:
-
-            </p>
-            <p></p>
-        </div>
-
-        <div class="benef-proceso-tiles">
-            <ul>
-                <li>
-                    <h5>Acogida</h5>
-                    <p>
-                        A través de diferentes entidades sociales, recibimos a todas aquellas personas en exclusión que están preparadas para trabajar y que quieren volver al mundo laboral. Las entrevistamos y analizamos su situación personal y experiencia previa, identificamos
-                        sus competencias, sus preferencias laborales y diseñamos un itinerario personalizo para ellas.
+            <div class="col-10 np1 d-flex justify-content-center
+                    npSubTitle">
+                <h3 class="mb-4 text-center">A todos los niveles, desde el doméstico hasta el gubernamental, un factor común salta a la vista en cada conversación sobre migración: El miedo.
+                </h3>
+                <div class="mainTextnp">
+                    <p>“Miedo a que nos quiten los trabajos”, “miedo a que colapsen el sistema”, “miedo a la delincuencia”, “miedo a que cambien nuestra cultura”, “miedo a llenarnos de gente fracasada a la que haya que mantener”. Tenemos miedo a que toda
+                        la gente que llega no se integre, se vaya a la economía sumergida, se vuelva víctima del crimen o caiga en él, tenemos miedo a que nuestro país se llene de gente que no funciona, que tengamos que saturar nuestros servicios sociales,
+                        presupuestos, en definitiva, tenemos miedo a que la gente fracase y se quede. Y el miedo genera rechazo.
                     </p>
-                </li>
-                <li>
-                    <h5>Formación y Desarrollo
-                    </h5>
-                    La primera parada de nuestro itinerario es la Escuela de Fortalecimiento. Aquí trabajamos el desarrollo de habilidades personales y laborales a través de un programa de fortalecimiento y formación prelaboral, donde aprenden a afrontar con éxito un proceso
-                    de selección. Este programa se refuerza con procesos de mentoring y coaching, así como con tutorías y seguimientos personalizados.
+                    <p>Todo este miedo y rechazo se acentúa cuando sobrevienen las crisis de refugiados, en las que el flujo de personas desplazadas en busca de refugio en los países estresa el sistema debido a la urgencia de incrementar la ayuda a las personas
+                        necesitadas de asistencia humanitaria en un grado muy superior a lo que podría ser habitual, superando las posibilidades de los servicios asistenciales locales, bien por la magnitud del suceso, bien por la precariedad de la situación
+                        local y que si no se suministran con suficiencia, eficacia y diligencia, desemboca en una catástrofe humanitaria.
+                    </p>
+                    <p>
+                        El problema viene cuando estos miedos catalizan políticas de rechazo a la inmigración. Al poner el foco en detener la entrada, se pierde la perspectiva de cómo integrar de forma positiva para el país a quienes entran, dejando un sistema absolutamente
+                        falto de preparación para cuando surge una crisis migratoria, sin capacidad para integrar y proveer de oportunidades a esas personas. Y claro, como consecuencia lógica de ello, efectivamente florecen la inmigración ilegal, las
+                        tensiones sociales, la discriminación, la desconfianza en los gobiernos y el poder de las redes delictivas. Un claro ejemplo de profecía autocumplida.
+                    </p>
+                </div>
+            </div>
 
-
-                </li>
-                <li>
-                    <h5>Derivación de Candidatos a la Empresa
-                    </h5>
-                    Una vez preparadas, las enviamos a la empresa para la cubrir sus ofertas y puestos vacantes. Una parte importante del éxito de la contratación es el seguimiento posterior que realizamos de las personas incorporadas junto con el departamento de RRHH de
-                    las empresas.
-
-
-                </li>
-                <li class="lastli">
-                    <h5>Contratación y Seguimiento
-                    </h5>
-                    Aseguramos la buena adaptación de la persona al puesto y, al mes de incorporarse a trabajar, pedimos a la empresa una valoración sobre su desempeño. En el 90% de los casos estas valoraciones son positivas. Durante el primer año, hacemos un seguimiento
-                    periódico en el que valoramos su situación laboral y personal, cerrando así el proceso de integración socio-laboral.
-                </li>
-            </ul>
         </div>
-
     </section>
+    <hr>
 
-    <section class="benef-ofertas-job">
-        <h2 class="text-center mt-5 mb-5">Ofertas de empleo con discapacidad</h2>
-        <div class="benef-ofertas-wrapper">
-            <p class="benef-ofer-descr">
-                Si estás desempleado, tienes una discapacidad del 33% o más y resides en Madrid, Catalunya, Comunidad Valenciana, Andalucía, Galicia e Islas Baleares, envíanos tu CV a través del formulario y contactaremos contigo lo antes posible para ayudarte a buscar
-                empleo.
-            </p>
+    <section class="container-fluid np np1 inmigracionYdelincuencia">
+        <div class="row justify-content-center">
+            <div class="mainImgDiv">
+                <img src="./img/nuestraPropuesta2.png" alt="inmigracion y
+                        delincuencia">
+            </div>
+            <div class="row np2">
+                <div class="npTitle titleInmigracionYdelincuencia mb-3">
+                    <h1 text-center>La falta de políticas de inserción favorece situaciones de calle… y delincuencia.</h1>
+                </div>
+                <div class="col-12 col-sm-6 text-justify" style="padding-left: 30px">
+                    <p>Sin apoyo ni capital social y con un entorno institucional que no favorece su integración productiva, las probabilidades de fracaso para los que llegan son elevadas. Convertirse en un coste para la sociedad y víctima de las mafias,
+                        debido a su situación de vulnerabilidad es, en gran parte de los casos, una cuestión tiempo y de suerte. Ante políticas contrarias a la migración, centradas en impedir el ingreso, los inmigrantes que logran entrar entran en un
+                        limbo social donde corren el riesgo de sufrir situaciones de calle que no le dejen más alternativas para sobrevivir que vivir de ayudas… o delinquir. Esto se agrava porque dichas políticas los mantienen invisibilizados en un submundo
+                        que roza con el rechazo y la ilegalidad, haciendo que tiendan a conformarse en “ghettos”.
+                    </p>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <div class="card" style="width: 95%">
+                        <!-- <img class="card-img-top" src="..." alt="Card image
+                                cap"> -->
+                        <div class="card-body">
+                            <h5 class="card-title text-center"> <strong>Cómo
+                                        convertir
+                                        un inmigrante en un delincuente</strong></h5>
+                            <p class="card-text text-justify mb-3" style="width:
+                                    95%; margin: auto;">Estas son algunas de las situaciones que enfrentan los inmigrantes y la sociedad en su conjunto como resultado de un fenómeno migratorio enfocado en el miedo.</p>
+                            <ul>
+                                <li> Acceso y estadía descontrolados y no registrados
+                                </li>
+                                <li> Integración limitada por el shock cultural
+                                </li>
+                                <li> Falta de orientación y formación para la inserción laboral y el emprendimiento (y, con ello, una dependencia más prolongada de las ayudas públicas)</li>
+                                <li> Depresión por la desconexión con el origen
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
+
     </section>
 
 </body>
