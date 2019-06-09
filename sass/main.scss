@@ -646,3 +646,10 @@ a {
     margin: auto;
     margin-top: 10%;
 }
+
+.willHaveArrows>li::before {
+    font-family: "FontAwesome";
+    content: "\f061";
+    /* Unicode value from FontAwesome */
+    display: inline-block;
+}

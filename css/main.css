@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 @import url("https://fonts.googleapis.com/css?family=Karla&display=swap");
 .conocenosSection2 {
@@ -193,6 +194,7 @@ h6 {
 
 .secondBenefUl {
   list-style: none;
+  text-align: justify;
 }
 
 .thirdSecBenef {
@@ -939,6 +941,13 @@ a {
   width: min-content;
   margin: auto;
   margin-top: 10%;
+}
+
+.willHaveArrows > li::before {
+  font-family: "FontAwesome";
+  content: "";
+  /* Unicode value from FontAwesome */
+  display: inline-block;
 }
 
 /*# sourceMappingURL=main.css.map */
