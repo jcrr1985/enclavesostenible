@@ -1,8 +1,8 @@
-var navHeight = $('.navbar').height();
-
-
+var navHeight = $('.navbar').outerHeight();
 
 console.log(navHeight);
+
+$(".openingSection").css("margin-top", navHeight);
 
 
 var roundLogEl2 = document.querySelector('.cipher');
@@ -74,6 +74,8 @@ $('a').each(function() {
         .removeAttr('href');
 });
 
-$('td').each(function() {
-    $(this).attr('onclick', "window.location='form.html'");
-});
+// $('td').each(function() {
+//     $(this).attr('onclick', "window.location='form.html'");
+// });
+
+// $('.willHaveArrows li').each((i, e) => e.prepend("<span class='fa fa-arrow-right'></span>"))

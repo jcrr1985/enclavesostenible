@@ -1,13 +1,14 @@
-.np * {
+.np p {
     font-family: quotus;
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        font-family: timeburnernormal;
-    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: timeburnernormal!important;
 }
 
 .mainImgDiv {
@@ -21,7 +22,7 @@
 }
 
 .npTitle {
-    padding: 30px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
     margin: auto;
     text-align: center;
 }
@@ -34,4 +35,34 @@
     }
 }
 
-.np2 {}
+.np2 {
+    margin-top: -4.5rem!important;
+    .titleInmigracionYdelincuencia {
+        margin-bottom: 2rem!important;
+    }
+}
+
+.npContainerFluid {
+    width: 95%!important;
+}
+
+.inmigracionYdelincuenciaSection {
+    h1 {
+        text-align: center;
+        margin: 2rem 0;
+    }
+}
+
+//MODELO DE INTERVENCION
+.modelodeintervencion {
+    background: #dedede;
+    font-size: 15px;
+    .modeloInterTitle {
+        margin: 40px 0;
+        width: 100%
+    }
+    #imgNuestraPropuesta {
+        width: 100%;
+        margin: auto;
+    }
+}
