@@ -639,3 +639,10 @@ p {
 a {
     cursor: pointer;
 }
+
+.teamWrapper img {
+    border-radius: 50%;
+    width: min-content;
+    margin: auto;
+    margin-top: 10%;
+}
