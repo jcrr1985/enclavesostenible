@@ -103,15 +103,6 @@
   font-family: quotus;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: timeburnernormal !important;
-}
-
 .mainImgDiv {
   width: 80%;
   height: 300px;
@@ -315,21 +306,13 @@ a.firstRreadMore {
 .cipher2,
 .cipher3,
 .cipher4 {
-  font-family: PlaylistScript;
+  font-family: Roboto, sans-serif;
 }
 
 .section5 {
   height: 55vh !important;
 }
 
-@font-face {
-  font-family: PlaylistScript;
-  src: url("../fonts/PlaylistScript.otf") format("opentype");
-}
-@font-face {
-  font-family: timeburnernormal;
-  src: url("../fonts/timeburnernormal.ttf") format("opentype");
-}
 * {
   scroll-behavior: smooth;
   /* <----- THE SECRET anchor on page smooth transition ---- */
@@ -341,6 +324,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: Roboto, sans-serif !important;
   color: #333;
 }
 

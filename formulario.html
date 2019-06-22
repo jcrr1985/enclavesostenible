@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+            shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="generator" content="">
+    <title>Kellys</title>
+
+    <link rel="stylesheet" type="" href="bootstrap-4.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/socialmedia.css">
+    <link rel="stylesheet" type="" href="css/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+    <link rel="stylesheet" type="" href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Materialize pluggin stepper-->
+    <link rel="stylesheet" href="https://unpkg.com/materialize-stepper@3.0.1/dist/css/mstepper.min.css">
+    <!--Iconos Materialize-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Titulo -->
+        <div class="row">
+            <div class="col-12 text-center mt-5 mb-4">
+                <h4>Formulario de Contacto</h4>
+            </div>
+        </div>
+
+        <!--FORMULARIO-->
+
+        <form class="col s12">
+
+            <!--EMAIL-->
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">contact_mail</i>
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                </div>
+            </div>
+
+            <!-- NOMBRES Y APELLIDOS -->
+
+            <!--Nombres-->
+            <div class="row">
+                <div class="input-field col s6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="name1" type="text" class="validate">
+                    <label for="name1">Primer nombre</label>
+                </div>
+                <div class="input-field col s6">
+
+                    <input id="name2" type="text" class="validate">
+                    <i class="material-icons prefix">person_outline</i>
+                    <label for="name2">Segundo nombre</label>
+                </div>
+            </div>
+
+            <!--apellidos-->
+            <div class="row">
+                <div class="input-field col s6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="ap1" type="text" class="validate">
+                    <label for="ap1">Primer apellido</label>
+                </div>
+                <div class="input-field col s6">
+                    <i class="material-icons prefix"> person_outline</i>
+                    <input id="ap2" type="text" class="validate">
+                    <label for="ap2">Segundo apellido</label>
+                </div>
+            </div>
+
+            <!--Fecha de Nacimiento-->
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">date_range</i>
+                    <input id="fecha_nac" type="text" class="datepicker
+                            validate">
+                    <label for="fecha_nac">Fecha de nacimiento</label>
+                </div>
+            </div>
+
+            <!--País-->
+
+            <div class="row">
+
+                <div class="input-field col s12">
+
+                    <i class="material-icons prefix">location_searching
+                        </i>
+                    <select>
+                            <option value="1">Venezuela</option>
+                            <option value="2">Rusia</option>
+                            <option value="2">Plutón</option>
+                        </select>
+                    <label>País de
+                            Nacimiento</label>
+                </div>
+            </div>
+
+            <!--Nacionalidad y Pasaporte-->
+
+            <!--Nacionalidad-->
+            <div class="row">
+                <div class="input-field col s6">
+
+                    <i class="material-icons prefix">person_pin_circle</i>
+                    <select>
+                            <option value="1">Venezolana</option>
+                            <option value="2">Ruso</option>
+                            <option value="2">Plutoniano</option>
+                        </select>
+                    <label>Nacionalidad</label>
+                </div>
+                <!--Pasaporte-->
+                <div class="input-field col s6">
+                    <input id="pasaporte" type="number" class="validate">
+                    <label for="pasaporte">pasaporte</label>
+                </div>
+            </div>
+
+            <!--Ciudad donde vives-->
+
+            <div class="row">
+
+                <div class="input-field col s12">
+
+                    <i class="material-icons prefix">settings_overscan
+                        </i>
+                    <select>
+                            <option value="1">Caracas</option>
+                            <option value="2">Moscú</option>
+                            <option value="2">Playa Pluto</option>
+                        </select>
+                    <label>Ciudad donde vives</label>
+                </div>
+            </div>
+
+            <!--Dirección-->
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">gps_fixed</i>
+                    <input id="direccion" type="text" class="validate">
+                    <label for="direccion">Dirección</label>
+                </div>
+            </div>
+
+
+            <!--Enviar-->
+            <div class="row">
+                <div class="input-field col s12">
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                            <i class="material-icons right">send</i>
+                        </button>
+                </div>
+            </div>
+
+            <!--FIN DEL FORMULARIO-->
+        </form>
+
+
+
+
+        <!-- jQuery library -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js "></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!-- Boostrap bundle -->
+        <script src="./bootstrap-4.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+        <!-- <script src="js/conocenos.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="js/main.js">
+    </script> -->
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <!-- JS Pluggin for Materialize stepper-->
+        <script src="https://unpkg.com/materialize-stepper@3.0.1/dist/js/mstepper.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                /*DatePicker*/
+                $('.datepicker').datepicker();
+                /*Moda*/
+                $('.modal').modal();
+                /*Select Nacimiento*/
+                $('select').formSelect();
+            });
+            /*Stepper*/
+            var stepper = document.querySelector('.stepper');
+            var stepperInstace = new MStepper(stepper, {
+                // options
+                firstActive: 0 // this is the default
+            })
+        </script>
+    </div>
+</body>
+
+
+
+
+</html>

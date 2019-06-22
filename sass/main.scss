@@ -9,16 +9,6 @@
 @import 'section2AndHalf';
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
-@font-face {
-    font-family: $fancy;
-    src: url("../fonts/PlaylistScript.otf") format("opentype");
-}
-
-@font-face {
-    font-family: $titles;
-    src: url("../fonts/timeburnernormal.ttf") format("opentype");
-}
-
 * {
     scroll-behavior: smooth;
     /* <----- THE SECRET anchor on page smooth transition ---- */
@@ -30,7 +20,7 @@ h3,
 h4,
 h5,
 h6 {
-    // font-family: 'Karla', sans-serif;
+    font-family: Roboto, sans-serif!important;
     color: #333;
 }
 
