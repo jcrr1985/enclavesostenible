@@ -27,8 +27,8 @@
 }
 .section2TextDiv .title {
   text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 2.5rem;
   color: #D11C35;
 }
 
@@ -61,6 +61,7 @@
 .section3Conocenos .row .sec3imgWrap {
   display: flex;
   flex-direction: column;
+  margin: 20px auto;
 }
 .section3Conocenos .row .sec3imgWrap img {
   object-fit: contain;
@@ -71,11 +72,12 @@
 }
 
 .section3Conocenos .titleWrap {
+  padding-top: 25px;
   justify-content: center;
 }
 .section3Conocenos .titleWrap h1 {
   color: #333;
-  padding: 2.7rem 0 2.7rem 0;
+  padding: 1.7rem 0 1.7rem 0;
 }
 
 .teamWrapper {
@@ -216,6 +218,10 @@
   color: steelblue;
 }
 
+#nuestrosObjetivos h5 {
+  color: steelblue;
+}
+
 .sectionLastForm {
   transition: 1s all;
   background: rgba(188, 32, 77, 0.3);
@@ -289,7 +295,8 @@ a.firstRreadMore {
   background-color: #F7F7F7;
 }
 .sectionNuestroEquipo h1 {
-  padding-top: 5rem;
+  padding-bottom: 3rem;
+  padding-top: 4rem;
 }
 
 .owl-item {
@@ -344,7 +351,8 @@ h6 {
 }
 
 p {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: Roboto, sans-serif;
+  text-align: justify;
 }
 
 .btn {

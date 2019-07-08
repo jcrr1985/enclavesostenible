@@ -4,6 +4,7 @@
 @import 'section6';
 @import 'nuestraPropuesta';
 @import 'beneficiarios';
+@import 'conocenos';
 @import 'form';
 @import 'nav';
 @import 'section2AndHalf';
@@ -25,7 +26,8 @@ h6 {
 }
 
 p {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Roboto, sans-serif;
+    text-align: justify;
 }
 
 .btn {
