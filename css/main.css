@@ -9,6 +9,15 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.sec2LeftDiv {
+  width: 75%;
+  align-items: center;
+  margin-left: 9rem;
+  margin-top: 4rem;
+  line-height: 19px;
+  text-align: justify;
+}
+
 .section2TextDiv {
   text-align: justify;
   font-size: 14px;
@@ -21,6 +30,11 @@
   padding-top: 5rem;
   padding-bottom: 2rem;
   color: #D11C35;
+}
+
+.section3 {
+  background: #F8F9F9;
+  margin: 50px auto;
 }
 
 .section3Conocenos {
@@ -389,14 +403,6 @@ p {
   height: 70vh;
 }
 
-.sec2LeftDiv {
-  width: 75%;
-  align-items: center;
-  margin-left: 9rem;
-  margin-top: 4rem;
-  line-height: 19px;
-}
-
 .sec2LeftDiv h2 {
   font-family: PlaylistScript;
   color: #D11C35;
@@ -471,11 +477,6 @@ p {
 .thirdSecRow {
   text-align: center;
   font-size: 4.4rem;
-}
-
-.section3 {
-  height: 60vh;
-  background: #F8F9F9;
 }
 
 .venencif {

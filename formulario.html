@@ -30,10 +30,16 @@
 <body>
     <div class="container">
 
+
+        <!--Back button-->
+        <a class="btn-floating btn-large waves-effect waves-light teal
+                mt-3" onclick="goBack()"><i
+                    class="material-icons">chevron_left</i></a>
+
         <!-- Titulo -->
         <div class="row">
-            <div class="col-12 text-center mt-5 mb-4">
-                <h4>Formulario de Contacto</h4>
+            <div class="col s12 text-center mt-4 mb-4">
+                <h4 style="color: #555">Formulario de Contacto</h4>
             </div>
         </div>
 
@@ -60,9 +66,8 @@
                     <label for="name1">Primer nombre</label>
                 </div>
                 <div class="input-field col s6">
-
-                    <input id="name2" type="text" class="validate">
                     <i class="material-icons prefix">person_outline</i>
+                    <input id="name2" type="text" class="validate">
                     <label for="name2">Segundo nombre</label>
                 </div>
             </div>
@@ -169,8 +174,46 @@
             <!--FIN DEL FORMULARIO-->
         </form>
 
+        <form action="youraction" method="yourmethod">
+            <ul class="stepper linear">
+                <li class="step active">
+                    <div class="step-title waves-effect">E-mail</div>
+                    <div class="step-content">
+                        <!-- Your step content goes here (like inputs or so) -->
+                        <div class="step-actions">
+                            <!-- Here goes your actions buttons -->
+                            <button class="waves-effect waves-dark btn
+                                    next-step">CONTINUE</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="step">
+                    <div class="step-title waves-effect">E-mail</div>
+                    <div class="step-content">
+                        <!-- Your step content goes here (like inputs or so) -->
+                        <div class="step-actions">
+                            <!-- Here goes your actions buttons -->
+                            <button class="waves-effect waves-dark btn
+                                    next-step">CONTINUE</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="step">
+                    <div class="step-title waves-effect">E-mail</div>
+                    <div class="step-content">
+                        <!-- Your step content goes here (like inputs or so) -->
+                        <div class="step-actions">
+                            <!-- Here goes your actions buttons -->
+                            <button class="waves-effect waves-dark btn
+                                    next-step">CONTINUE</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
 
 
+
+        </form>
 
         <!-- jQuery library -->
         <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js "></script> -->
@@ -178,11 +221,11 @@
         <!-- Boostrap bundle -->
         <script src="./bootstrap-4.0.0/dist/js/bootstrap.bundle.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-        <!-- <script src="js/conocenos.js">
+        <!-- <script src="js/conocenos.js ">
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
-    <script src="js/main.js">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js "></script>
+    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js "></script>
+    <script src="js/main.js ">
     </script> -->
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
@@ -200,9 +243,13 @@
             /*Stepper*/
             var stepper = document.querySelector('.stepper');
             var stepperInstace = new MStepper(stepper, {
-                // options
-                firstActive: 0 // this is the default
-            })
+                    // options
+                    firstActive: 0 // this is the default
+                })
+                /*Regresar ventana anterior*/
+            function goBack() {
+                window.history.back();
+            }
         </script>
     </div>
 </body>
