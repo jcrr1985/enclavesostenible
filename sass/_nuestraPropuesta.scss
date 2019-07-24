@@ -1,19 +1,21 @@
-.np p {
-    font-family: quotus;
-}
-
 .mainImgDiv {
-    width: 80%;
-    height: 300px;
+    width: 100%;
     margin: auto;
-    margin-bottom: 5.5rem;
+    margin-bottom: 3rem;
     img {
         width: -webkit-fill-available;
+        margin-left: -46px;
     }
 }
 
 .npTitle {
-    padding: 10px 0px 10px 0px;
+    padding: 85px 0px 10px 0px;
+    margin: auto;
+    text-align: center;
+}
+
+.npTitle0 {
+    padding: 20px 0px 10px 0px;
     margin: auto;
     text-align: center;
 }
@@ -31,6 +33,23 @@
     .titleInmigracionYdelincuencia {
         margin-bottom: 2rem!important;
     }
+    .card {
+        border: none;
+        width: 78%;
+        bottom: 0px;
+        position: absolute;
+        left: 0px;
+        .card-body {
+            padding-top: 0px;
+        }
+    }
+    ul li {
+        list-style-type: none;
+        &::before {
+            content: url("../img/checkmark.png");
+            transform: scale(.2)
+        }
+    }
 }
 
 .npContainerFluid {
@@ -38,7 +57,11 @@
 }
 
 .inmigracionYdelincuenciaSection {
-    h1 {
+    margin-bottom: 60px;
+    h1,
+    h2,
+    h3,
+    h4 {
         text-align: center;
         margin: 2rem 0;
     }
@@ -46,14 +69,48 @@
 
 //MODELO DE INTERVENCION
 .modelodeintervencion {
-    background: #dedede;
+    // background: #dedede;
     font-size: 15px;
     .modeloInterTitle {
-        margin: 40px 0;
+        margin: 50px 0;
         width: 100%
     }
     #imgNuestraPropuesta {
-        width: 100%;
-        margin: auto;
+        position: relative;
+        left: -16px;
+        width: 118%;
+    }
+    .modIntervencionRight {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.npSubTitle {
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+}
+
+section.politicas-publicas {
+    h4 {
+        margin-bottom: 2.5rem;
+    }
+    .col-12 {
+        margin-bottom: 20px;
+        border-bottom: 1px ridge;
+    }
+    padding: 50px 50px;
+    h2 {
+        margin-bottom: 40px;
+    }
+    .firstDiv {
+        p {
+            margin: 0!important;
+            padding-bottom: 5px;
+        }
+    }
+    .facilitamos {
+        justify-content: space-evenly;
     }
 }

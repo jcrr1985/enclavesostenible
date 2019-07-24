@@ -10,7 +10,7 @@
     <meta name="generator" content="">
     <title>Kellys</title>
 
-    <link rel="stylesheet" type="" href="bootstrap-4.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="css/socialmedia.css">
     <link rel="stylesheet" type="" href="css/main.css">
@@ -37,15 +37,14 @@
                     class="material-icons">chevron_left</i></a>
 
         <!-- Titulo -->
-        <div class="row">
+        <!-- <div class="row">
             <div class="col s12 text-center mt-4 mb-4">
                 <h4 style="color: #555">Formulario de Contacto</h4>
             </div>
-        </div>
-
+        </div> -->
         <!--FORMULARIO-->
 
-        <form class="col s12">
+        <div class="col s12">
 
             <!--EMAIL-->
             <div class="row">
@@ -85,6 +84,7 @@
                     <label for="ap2">Segundo apellido</label>
                 </div>
             </div>
+
 
             <!--Fecha de Nacimiento-->
             <div class="row">
@@ -172,54 +172,104 @@
             </div>
 
             <!--FIN DEL FORMULARIO-->
-        </form>
 
-        <form action="youraction" method="yourmethod">
-            <ul class="stepper linear">
-                <li class="step active">
-                    <div class="step-title waves-effect">E-mail</div>
-                    <div class="step-content">
-                        <!-- Your step content goes here (like inputs or so) -->
-                        <div class="step-actions">
-                            <!-- Here goes your actions buttons -->
-                            <button class="waves-effect waves-dark btn
-                                    next-step">CONTINUE</button>
-                        </div>
-                    </div>
-                </li>
-                <li class="step">
-                    <div class="step-title waves-effect">E-mail</div>
-                    <div class="step-content">
-                        <!-- Your step content goes here (like inputs or so) -->
-                        <div class="step-actions">
-                            <!-- Here goes your actions buttons -->
-                            <button class="waves-effect waves-dark btn
-                                    next-step">CONTINUE</button>
-                        </div>
-                    </div>
-                </li>
-                <li class="step">
-                    <div class="step-title waves-effect">E-mail</div>
-                    <div class="step-content">
-                        <!-- Your step content goes here (like inputs or so) -->
-                        <div class="step-actions">
-                            <!-- Here goes your actions buttons -->
-                            <button class="waves-effect waves-dark btn
-                                    next-step">CONTINUE</button>
-                        </div>
-                    </div>
-                </li>
-            </ul>
+            <p>¿Qué te motiva a contactarnos?</p>
+            <!-- PRUEBA CHK -->
 
+            <p class="ml-3">
+                <label class="mt-2">
+                        <input id="checker" type="checkbox" />
+                        <span>Necesito Ayuda</span>
+                    </label>
+            </p>
 
+            <div id="rowTest" class="row ml-5">
+                <p class="ml-auto">¿Qué necesitas?</p>
 
-        </form>
+                <p>
+                    <label>
+                            <input type="checkbox" />
+                            <span>Lugar de acogida</span>
+                        </label>
+                </p>
+
+                <p>
+                    <label>
+                            <input type="checkbox" />
+                            <span>Orientación para la integración</span>
+                        </label>
+                </p>
+
+                <p>
+                    <label>
+                            <input type="checkbox" />
+                            <span>Asesoría para la inmigración</span>
+                        </label>
+                </p>
+
+                <p>
+                    <label>
+                            <input type="checkbox" />
+                            <span>Asesoría para el empleo / emprendimiento</span>
+                        </label>
+                </p>
+                <p>
+                    <label>
+                            <input type="checkbox" />
+                            <span>Actividades de ocio y reencuentro con la
+                                comunidad</span>
+                        </label>
+                </p>
+                <p>
+                    <label>
+                            <input type="checkbox" />
+                            <span>Retorno voluntario sin pobreza</span>
+                        </label>
+                </p>
+            </div>
+
+            <p class="ml-3">
+                <label class="mt-2">
+                        <input id="checker2" type="checkbox" />
+                        <span>Quiero ser voluntario</span>
+                    </label>
+            </p>
+            <p class="ml-3">
+                <label class="mt-2">
+                        <input id="checker3" type="checkbox" />
+                        <span>Quiero hacer un donativo</span>
+                    </label>
+            </p>
+
+            <div class="donativos">
+                <p class="ml-3">
+                    <label class="mt-2">
+                            <input id="dona1" type="checkbox" />
+                            <span>Mensual</span>
+                        </label>
+                    <p class="ml-3">
+                        <label class="mt-2">
+                                <input id="dona2" type="checkbox" />
+                                <span>Anual</span>
+                            </label>
+                    </p>
+                    <p class="ml-3">
+                        <label class="mt-2">
+                                <input id="dona3" type="checkbox" />
+                                <span>Puntual</span>
+                            </label>
+                    </p>
+                </p>
+            </div>
+
+        </div>
 
         <!-- jQuery library -->
         <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js "></script> -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <!-- Boostrap bundle -->
         <script src="./bootstrap-4.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!--WayPoints-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
         <!-- <script src="js/conocenos.js ">
     </script>
@@ -239,14 +289,33 @@
                 $('.modal').modal();
                 /*Select Nacimiento*/
                 $('select').formSelect();
+                /*PRUEBA*/
+                /*PRUEBA*/
+
+                $("#rowTest, .donativos").css("display", "none")
+
+
+                $("#checker").on('change', function() {
+                    if ($(this).is(':checked')) {
+                        $("#rowTest").css("display", "block")
+                    } else {
+                        $("#rowTest").css("display", "none")
+                    }
+                });
             });
-            /*Stepper*/
-            var stepper = document.querySelector('.stepper');
-            var stepperInstace = new MStepper(stepper, {
-                    // options
-                    firstActive: 0 // this is the default
-                })
-                /*Regresar ventana anterior*/
+
+
+            $("#checker3").on('change', function() {
+                if ($(this).is(':checked')) {
+
+                    $(".donativos").css("display", "inline-flex")
+                } else {
+                    $(".donativos").css("display", "none")
+                }
+            })
+
+
+            /*Regresar ventana anterior*/
             function goBack() {
                 window.history.back();
             }

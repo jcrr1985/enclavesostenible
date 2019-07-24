@@ -10,7 +10,7 @@
     <meta name="generator" content="">
     <title>Kellys</title>
 
-    <link rel="stylesheet" type="" href="bootstrap-4.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="css/socialmedia.css">
     <link rel="stylesheet" type="" href="css/main.css">
@@ -28,96 +28,56 @@
 <body>
 
     <!--Navbar-->
-    <!--Navbar-->
+<div class="container-fluid">
+    <nav class="navbar navbar-expand-md fixed-top row">
 
-    <div class="container-fluid">
-        <nav class="navbar navbar-expand-md fixed-top row">
-            <div class="col-sm-4 text-center">
-                <a class="navbar-brand" href="#"><img src="./img/logo2.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-            </div>
-            <div class="col-sm-8 align-self-end text-right">
-                <div class="socialDiv">
+        <div class="col-sm-2 text-center">
+            <a class="navbar-brand" href="#"><img src="./img/logo2.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        </div>
+        <div class="col-sm-8">
+       
+            <!------------NAVBAR-------------->
 
-                    <!--Google +-->
-                    <button type="button" class="bs btn btn-gplus">
-                            <i class="fab fa-google-plus-g pr-1"></i>
-                            <span></span>
-                        </button>
-                    <span class="counter"></span>
+            <div class="collapse navbar-collapse justify-content-center " id="navbarCollapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span
+                                    class="sr-only">(current)</span></a>
+                    </li>
+                    <!--CONOCENOS-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="conocenos.html#quienessomos" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Conócenos
+                            </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="conocenos.html#quienessomos">¿Quiénes somos?</a>
+                            <a class="dropdown-item" href="conocenos.html#nuestrosObjetivos">Objetivos</a>
 
-                    <!--Linkedin-->
-                    <button type="button" class="bs btn btn-li">
-                            <i class="fab fa-linkedin-in pr-1"></i>
-                            <span></span>
-                        </button>
-                    <span class="counter"></span>
+                            <a class="dropdown-item" href="conocenos.html#filosofia">Filosofía y valores</a>
+                            <a class="dropdown-item" href="conocenos.html#nuestroEquipo">Nuestro Equipo</a>
 
-                    <!--Instagram-->
-                    <button type="button" class="bs btn btn-ins">
-                            <i class="fab fa-instagram pr-1"></i>
-                            <span></span>
-                        </button>
-                    <span class="counter"></span>
-
-                    <!--Pinterest-->
-                    <button type="button" class="bs btn btn-pin">
-                            <i class="fab fa-pinterest pr-1"></i>
-                            <span></span>
-                        </button>
-                </div>
-
-                <!------------NAVBAR-------------->
-
-                <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="./index.html">Home
-                                    <span
-                                        class="sr-only">(current)</span></a>
-                        </li>
-                        <!--CONOCENOS-->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="conocenos.html#quienessomos" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Conócenos
-                                </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="conocenos.html#quienessomos">¿Quiénes
-                                        somos?</a>
-                                <a class="dropdown-item" href="conocenos.html#nuestrosObjetivos">Objetivos</a>
-                                <a class="dropdown-item" href="conocenos.html#filosofia">Filosofía
-                                        y valores</a>
-                                <a class="dropdown-item" href="conocenos.html#nuestroEquipo">Nuestro
-                                        Equipo</a>
-
-                                <a class="dropdown-item" href="#">Embajadores</a>
-                                <a class="dropdown-item" href="#">Aliados</a>
-                            </div>
-                        </li>
-                        <!--NUESTRA PROPUESTA-->
-                        <li class="nav-item dropdown">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="./nuestrapropuesta.html" id="navbarDropdown0" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Nuestra propuesta
-                                    </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown0">
-                                    <a class="dropdown-item" style="color:white" href="./nuestrapropuesta.html#uncambiodeparadigma">Un
-                                            cambio
-                                            de paradigma</a>
-                                    <a class="dropdown-item" href="./nuestrapropuesta.html#modelodeintervencion">Modelo
-                                            de Intervención</a>
-
-                                    <a class="dropdown-item" href="#">Políticas
-                                            Públicas</a>
-                                    <a class="dropdown-item" href="#">Quieres
-                                            saber como trabajamos?
-                                        </a>
-                                </div>
-                            </li>
-                        </li>
-                        <!--BENEFICIARIOS-->
+                            <a class="dropdown-item" href="conocenos.html#nuestroEquipo">Embajadores</a>
+                            <a class="dropdown-item" href="#">Aliados</a>
+                        </div>
+                    </li>
+                    <!--NUESTRA PROPUESTA-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="./nuestrapropuesta.html" id="navbarDropdown0" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Nuestra propuesta
+                            </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown0">
+                            <a class="dropdown-item" style="color:white" href="./nuestrapropuesta.html#uncambiodeparadigma">Un cambio de paradigma</a>
+                            <a class="dropdown-item" href="./nuestrapropuesta.html#modelodeintervencion">Modelo de Intervención</a>
+                          
+                            <a class="dropdown-item" href="#">Políticas Públicas</a>
+                                      <a class="dropdown-item" href="#">Quieres saber como trabajamos?
+                                            </a>
+                        </div>
+                    </li>
+                          <!--BENEFICIARIOS-->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="./beneficiarios.html#benefSec1" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Beneficiarios
@@ -129,35 +89,70 @@
                                         en España</a>
                                 <a class="dropdown-item" href="./beneficiarios.html#benefSec3">Implantación
                                         de este modelo en España</a>
-                                <a class="dropdown-item" href="./beneficiarios.html#benefSec4">Venezuela
-                                        y España: lazos históricos</a>
+                                <a class="dropdown-item" href="./beneficiarios.html#benefSec4">Venezuela y España: lazos históricos</a>
 
-                                <a class="dropdown-item" href="./beneficiarios.html#benefSec5">Tenemos
+                            </div>
+                        </li>
+                         <!--PARTICIPA-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Participa
+                            </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                            <a class="dropdown-item" href="#">Actividades</a>
+                            
+                                    <a class="dropdown-item" href="./beneficiarios.html#benefSec5">Tenemos
                                         que empezar ya</a>
-                            </div>
-                        </li>
-                        <!--PARTICIPA-->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Participa
-                                </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
-                                <a class="dropdown-item" href="#">Actividades</a>
-                                <a class="dropdown-item" href="./formulario.html">Formulario</a>
-                            </div>
-                        </li>
-                        <!--BLOG-->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
-                        </li>
+                            <a class="dropdown-item" href="./formulario.html">Formulario</a>
+                        </div>
+                    </li>
+                    <!--BLOG-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
 
-                    </ul>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-2">
+            <div class="row justify-content-end">
+                <div class="col-12 text-right">
+                <!--Google +-->
+                <button type="button" class="bs btn btn-gplus">
+                         <i class="fab fa-pinterest pr-1"></i>
+                        <span></span>
+                    </button>
+                <span class="counter"></span>
+
+                <!--Linkedin-->
+                <button type="button" class="bs btn btn-li">
+                        <i class="fab fa-linkedin-in pr-1"></i>
+                        <span></span>
+                    </button>
+                <span class="counter"></span>
+                </div>
+                <div class="col-12 text-right">
+                    
+
+                <!--Instagram-->
+                <button type="button" class="bs btn btn-ins">
+                        <i class="fab fa-instagram pr-1"></i>
+                        <span></span>
+                    </button>
+                <span class="counter"></span>
+
+                <!--Pinterest-->
+                <button type="button" class="bs btn btn-pin">
+                        <i class="fab fa-pinterest pr-1"></i>
+                        <span></span>
+                    </button>
+            </div>
                 </div>
             </div>
-        </nav>
 
-    </div>
+    </nav>
 
+</div>
 
     <!--Section 1: Conocenos -->
 
@@ -175,12 +170,12 @@
                 </div>
             </div>
         </div>
-
+        <p style="margin-bottom:10px;" id="quienessomos"></p>
     </section>
 
     <!--Section2-->
 
-    <section class="container-fluid conocenosSection2" id="quienessomos">
+    <section class="container-fluid conocenosSection2">
         <div class="section2TextDiv">
             <div class="title">
                 <br><br>
@@ -193,12 +188,13 @@
                 de vida en los países de origen. De esta manera, buscamos reducir la urgencia por emigrar y generar razones para el posible regreso de los ya emigrados.
             </p>
         </div>
+        <div class="" id="nuestrosObjetivos"></div>
     </section>
 
 
     <!--Section 3- Nuestros objetivos -->
 
-    <section class="container-fluid section3Conocenos" id="nuestrosObjetivos">
+    <section class="container-fluid section3Conocenos">
         <div class="row titleWrap">
             <h1 class="">Nuestros Objetivos</h1>
         </div>
@@ -233,9 +229,6 @@
             </div>
 
 
-
-
-
             <div class="col-12 col-sm-6 sec3imgWrap sec3imgWrap3 pl-5 pr-5">
                 <!-- <img src="./img/guy3.png" alt=""> -->
                 <div class="">
@@ -252,7 +245,6 @@
                     <p>para orientar y facilitar el acceso a información y oportunidades de una forma organizada.</p>
                 </div>
             </div>
-
 
 
             <div class="col-12 col-sm-6 sec3imgWrap sec3imgWrap3 pl-5 pr-5">
@@ -277,7 +269,7 @@
                 <!-- <img src="./img/guy3.png" alt=""> -->
                 <div class="">
                     <h5>8. Difundir y sensibiliz </h5>
-                    <p>sobre la situación de crisis humanitaria venezolana.</p>
+                    <p id="filosofia">sobre la situación de crisis humanitaria venezolana.</p>
                 </div>
             </div>
 
@@ -287,7 +279,7 @@
 
     <!--Section 5 FILOSOFIA Y VALORES-->
 
-    <section class="container-fluid conocenosSection2" id="filosofia">
+    <section class="container-fluid conocenosSection2">
         <div class="section2TextDiv">
             <div class="title">
 
@@ -299,6 +291,9 @@
                 <br><br> Con este proyecto contribuimos a la meta 7 del Objetivo de Desarrollo Sostenible (ODS) #10 que se refiere a facilitar las migraciones ordenadas, seguras y regulares, a través de políticas migratorias planificadas y bien gestionadas;
                 a la vez que afectamos positivamente otros ODS, como el 1, 3, 4, 5, 8, 10, 11, 13, 16 y 17, debido a la realidad multidimensional de las migraciones.
             </p>
+
+            <p id="nuestroEquipo"> </p>
+
         </div>
     </section>
 
@@ -306,7 +301,7 @@
 
     <!--Section 5 - Nuestro equipo-->
 
-    <section class="container-fluid sectionNuestroEquipo" id="nuestroEquipo">
+    <section class="container-fluid sectionNuestroEquipo">
         <div class="row equipoTitle justify-content-center">
             <h1>Nuestro Equipo</h1>
         </div>

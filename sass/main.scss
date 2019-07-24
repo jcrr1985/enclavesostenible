@@ -25,9 +25,12 @@ h6 {
     color: #333;
 }
 
-p {
+p,
+li {
     font-family: Roboto, sans-serif;
     text-align: justify;
+    font-size: 14px!important;
+    color: #333;
 }
 
 .btn {
@@ -49,6 +52,10 @@ p {
 
 .fab {
     margin-left: 4px;
+}
+
+#navbarCollapse {
+    margin-left: 23px;
 }
 
 .section-white {
@@ -159,7 +166,7 @@ p {
 }
 
 .socialDiv {
-    margin-right: 8.5rem;
+    margin-right: 50%;
 }
 
 .thirdSecRow {
@@ -341,7 +348,7 @@ p {
     padding-bottom: 2.5rem;
 }
 
-.sec7ReadMore button {
+@mixin buttonBgNone {
     background-color: #fff;
     color: #230388;
     border: 2px solid #02a3a1;
@@ -349,6 +356,16 @@ p {
     font-weight: bold;
     font-size: 12px;
     padding: .4rem 1.7rem;
+}
+
+.sec7ReadMore button {
+    @include buttonBgNone();
+}
+
+a.firstRreadMore {
+    @include buttonBgNone();
+    color: #230388!important;
+    border: 2px solid #02a3a1!important;
 }
 
 .owl-stage-outer {

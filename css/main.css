@@ -14,7 +14,6 @@
   align-items: center;
   margin-left: 9rem;
   margin-top: 4rem;
-  line-height: 19px;
   text-align: justify;
 }
 
@@ -27,7 +26,7 @@
 }
 .section2TextDiv .title {
   text-align: center;
-  padding-top: 4rem;
+  padding-top: 2rem;
   padding-bottom: 2.5rem;
   color: #D11C35;
 }
@@ -116,22 +115,24 @@
   border-right: 1px solid #fff;
 }
 
-.np p {
-  font-family: quotus;
-}
-
 .mainImgDiv {
-  width: 80%;
-  height: 300px;
+  width: 100%;
   margin: auto;
-  margin-bottom: 5.5rem;
+  margin-bottom: 3rem;
 }
 .mainImgDiv img {
   width: -webkit-fill-available;
+  margin-left: -46px;
 }
 
 .npTitle {
-  padding: 10px 0px 10px 0px;
+  padding: 85px 0px 10px 0px;
+  margin: auto;
+  text-align: center;
+}
+
+.npTitle0 {
+  padding: 20px 0px 10px 0px;
   margin: auto;
   text-align: center;
 }
@@ -150,27 +151,81 @@
 .np2 .titleInmigracionYdelincuencia {
   margin-bottom: 2rem !important;
 }
+.np2 .card {
+  border: none;
+  width: 78%;
+  bottom: 0px;
+  position: absolute;
+  left: 0px;
+}
+.np2 .card .card-body {
+  padding-top: 0px;
+}
+.np2 ul li {
+  list-style-type: none;
+}
+.np2 ul li::before {
+  content: url("../img/checkmark.png");
+  transform: scale(0.2);
+}
 
 .npContainerFluid {
   width: 95% !important;
 }
 
-.inmigracionYdelincuenciaSection h1 {
+.inmigracionYdelincuenciaSection {
+  margin-bottom: 60px;
+}
+.inmigracionYdelincuenciaSection h1,
+.inmigracionYdelincuenciaSection h2,
+.inmigracionYdelincuenciaSection h3,
+.inmigracionYdelincuenciaSection h4 {
   text-align: center;
   margin: 2rem 0;
 }
 
 .modelodeintervencion {
-  background: #dedede;
   font-size: 15px;
 }
 .modelodeintervencion .modeloInterTitle {
-  margin: 40px 0;
+  margin: 50px 0;
   width: 100%;
 }
 .modelodeintervencion #imgNuestraPropuesta {
-  width: 100%;
-  margin: auto;
+  position: relative;
+  left: -16px;
+  width: 118%;
+}
+.modelodeintervencion .modIntervencionRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.npSubTitle {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+section.politicas-publicas {
+  padding: 50px 50px;
+}
+section.politicas-publicas h4 {
+  margin-bottom: 2.5rem;
+}
+section.politicas-publicas .col-12 {
+  margin-bottom: 20px;
+  border-bottom: 1px ridge;
+}
+section.politicas-publicas h2 {
+  margin-bottom: 40px;
+}
+section.politicas-publicas .firstDiv p {
+  margin: 0 !important;
+  padding-bottom: 5px;
+}
+section.politicas-publicas .facilitamos {
+  justify-content: space-evenly;
 }
 
 #firstImgBenef {
@@ -222,6 +277,14 @@
   color: steelblue;
 }
 
+#nuestroEquipo {
+  margin-bottom: 60px;
+}
+
+#nuestrosObjetivos {
+  margin-bottom: 60px;
+}
+
 .sectionLastForm {
   transition: 1s all;
   background: rgba(188, 32, 77, 0.3);
@@ -244,6 +307,18 @@
 .sectionLastForm table td:hover {
   background: rgba(188, 32, 77, 0.3);
   transform: scale(1.1);
+}
+
+.donativos {
+  display: inline-flex;
+}
+
+.akita {
+  display: block;
+}
+
+.ontabebe {
+  display: none;
 }
 
 nav {
@@ -279,16 +354,6 @@ nav {
 }
 .navbar-nav .nav-item.dropdown .dropdown-menu a.dropdown-item:hover {
   background: #298080;
-}
-
-a.firstRreadMore {
-  background-color: indigo;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
 }
 
 .sectionNuestroEquipo {
@@ -350,9 +415,12 @@ h6 {
   color: #333;
 }
 
-p {
+p,
+li {
   font-family: Roboto, sans-serif;
   text-align: justify;
+  font-size: 14px !important;
+  color: #333;
 }
 
 .btn {
@@ -374,6 +442,10 @@ p {
 
 .fab {
   margin-left: 4px;
+}
+
+#navbarCollapse {
+  margin-left: 23px;
 }
 
 .section-white {
@@ -480,7 +552,7 @@ p {
 }
 
 .socialDiv {
-  margin-right: 8.5rem;
+  margin-right: 50%;
 }
 
 .thirdSecRow {
@@ -670,6 +742,18 @@ p {
   font-weight: bold;
   font-size: 12px;
   padding: 0.4rem 1.7rem;
+}
+
+a.firstRreadMore {
+  background-color: #fff;
+  color: #230388;
+  border: 2px solid #02a3a1;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 0.4rem 1.7rem;
+  color: #230388 !important;
+  border: 2px solid #02a3a1 !important;
 }
 
 .owl-stage-outer {
