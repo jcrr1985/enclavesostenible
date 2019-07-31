@@ -4,6 +4,12 @@
         padding-bottom: 3rem;
         padding-top: 4rem;
     }
+    .card {
+        a.btn {
+            position: absolute;
+            bottom: -2px;
+        }
+    }
 }
 
 .owl-item {

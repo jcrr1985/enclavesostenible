@@ -53,6 +53,8 @@
 }
 
 .npContainerFluid {
+    position: relative;
+    left: 0px;
     width: 95%!important;
 }
 
@@ -113,4 +115,9 @@ section.politicas-publicas {
     .facilitamos {
         justify-content: space-evenly;
     }
+}
+
+.footerNp {
+    margin-left: -4%;
+    width: 104%;
 }
