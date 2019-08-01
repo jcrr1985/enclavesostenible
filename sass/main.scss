@@ -35,15 +35,15 @@ li {
 
 .btn {
     border: none;
-    transform: scale(.7);
     background: transparent;
+}
+
+.socialIconsNav .btn {
+    font-size: 1.5rem;
 }
 
 .bs {
     border: none;
-    transform: scale(.7);
-    background: #02a3a1;
-    color: #fff;
 }
 
 .social-row {
@@ -75,7 +75,7 @@ li {
 
 @media screen and (min-width: 992px) {
     .container {
-        max-width: 930px;
+        //
     }
 }
 
@@ -256,6 +256,9 @@ li {
     background: #30BCBD;
     display: flex;
     flex-direction: column;
+    * {
+        color: #fff;
+    }
 }
 
 .section6 h2 {
