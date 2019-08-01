@@ -31,6 +31,13 @@
   color: #D11C35;
 }
 
+.teamWrapper .us {
+  margin-bottom: 15px;
+}
+.teamWrapper .card-body {
+  padding: 1.5rem;
+}
+
 .section3 {
   background: #fff;
   margin: 50px auto;
